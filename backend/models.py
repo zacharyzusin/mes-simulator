@@ -16,3 +16,4 @@ class Job(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String)
     status = Column(Enum(JobStatus), default=JobStatus.PENDING)
+    retries = Column(Integer, default=0)
