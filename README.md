@@ -66,7 +66,9 @@ npm install
 # Start the development server
 npm run dev
 ```
+
 ## File Structure
+```
 ├── backend/
 │   ├── main.py         # runs the FastAPI server
 │   ├── database.py     # sets up SQLAlchemy connection to Postgres DB
@@ -81,3 +83,4 @@ npm run dev
 │   │   │   └── JobTable.tsx # Table to display jobs
 │   │   └── types.ts     # Shared types for Job objects
 ├── README.md
+```
