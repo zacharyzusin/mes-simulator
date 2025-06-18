@@ -37,7 +37,7 @@ These instructions assume you're running on macOS or Linux with **Python 3.9+**,
 git clone https://github.com/zacharyzusin/mes-simulator.git
 ```
 
-2. Backend Setup
+### 2. Backend Setup
 ```
 
 # Create and activate a Python virtual environment
@@ -57,7 +57,7 @@ psql -U postgres -c "CREATE DATABASE mes_db;"
 uvicorn backend.main:app --reload
 ```
 
-3. Frontend Setup
+### 3. Frontend Setup
 ```
 # Navigate to the frontend folder
 cd ../frontend
