@@ -1,6 +1,7 @@
 # Factory Workflow Tracker
 
 ![Image](factory.png)
+
 A lightweight Manufacturing Execution System (MES)-inspired web app simulating job orchestration and monitoring in a factory environment.
 
 ## Features
